@@ -3,6 +3,9 @@
 
 @import 'normalize.styl'
 
+
+
+azulLogo = #04F
 /*
  * HTML5 Boilerplate
  *
@@ -362,7 +365,29 @@ td
 /* ==|== primary styles =====================================================
    Author:
    ========================================================================== */
-
+body
+	background-color #999
+	color azulLogo
+	
+footer
+	background blue
+	
+	p
+		background azulLogo
+		color white
+	
+	a
+		text-decoration none
+		
+		&:hover 
+			text-decoration underline
+			font-size 3em
+			
+		&.disabled
+			color #CCC
+		
+		.disabled
+			color red
 
 
 
