@@ -3,9 +3,6 @@
 
 @import 'normalize.styl'
 
-
-
-azulLogo = #04F
 /*
  * HTML5 Boilerplate
  *
@@ -21,14 +18,11 @@ azulLogo = #04F
    Variables
    ========================================================================== */
 
-
-font-color = #222
-
-selection-bg = #b3d4fc
-
-link-color = #00e
-link-visited = #551a8b
-link-hover = #06e
+font-color    = #DDD
+selection-bg  = #b3d4fc
+link-color    = #00e
+link-visited  = #551a8b
+link-hover    = #06e
 
 
 
@@ -91,10 +85,12 @@ body
 
 ::-moz-selection
   background selection-bg
+  opacity 0.9
   text-shadow none
 
 ::selection
   background selection-bg
+  opacity 0.9
   text-shadow none
 
 
@@ -366,11 +362,11 @@ td
    Author:
    ========================================================================== */
 body
-	background-color #999
-	color azulLogo
+	background black url("../img/back_zagon.png")
+	opacity 0.9
 	
 footer
-	background blue
+	
 	
 	p
 		background azulLogo
