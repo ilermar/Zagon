@@ -17,6 +17,25 @@
 /* =============================================================================
    Variables
    ========================================================================== */
+   /*
+   blue1
+35-105-203
+#2369CB
+
+blue2
+28-98-128
+#1C6280
+
+#000000
+100-90-80-60-50 de opacidad
+Logo con fondo blanco
+
+#000000
+40-30-20-10-5 de opacidad
+Logo con fondo oscuro*/
+
+blue_up = #2369CB
+blue_down = #1C6280
 
 font-color    = #DDD
 selection-bg  = #b3d4fc
@@ -362,45 +381,26 @@ td
    Author:
    ========================================================================== */
 body
-	background black url("../img/back_zagon.png")
-	opacity 0.9
-	
-footer
-	
-	
-	p
-		background azulLogo
-		color white
-	
-	a
-		text-decoration none
-		
-		&:hover 
-			text-decoration underline
-			font-size 3em
-			
-		&.disabled
-			color #CCC
-		
-		.disabled
-			color red
+  background black url("../img/back_zagon.png")
+  opacity 0.9
+  text-align center
 
+header
+  
+  figure
+    border 1px solid red
+    text-align left
+    
+    img 
+      width 120px
 
+    figcaption
+      display inline-block
+      font-size 0.7em
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+section:nth-child(odd)
+  background #2369CB
+  opacity 0.4
 
 
 

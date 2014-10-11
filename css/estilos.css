@@ -198,6 +198,22 @@ th {
    Variables
    ========================================================================== */
 /*
+   blue1
+35-105-203
+#2369CB
+
+blue2
+28-98-128
+#1C6280
+
+#000000
+100-90-80-60-50 de opacidad
+Logo con fondo blanco
+
+#000000
+40-30-20-10-5 de opacidad
+Logo con fondo oscuro*/
+/*
  * ==|== normalize ==========================================================
  */
 /* =============================================================================
@@ -545,23 +561,24 @@ body {
   opacity: 0.9;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   filter: alpha(opacity=90);
+  text-align: center;
 }
-footer p {
-  background: azulLogo;
-  color: #fff;
+header figure {
+  border: 1px solid #f00;
+  text-align: left;
 }
-footer a {
-  text-decoration: none;
+header figure img {
+  width: 120px;
 }
-footer a:hover {
-  text-decoration: underline;
-  font-size: 3em;
+header figure figcaption {
+  display: inline-block;
+  font-size: 0.7em;
 }
-footer a.disabled {
-  color: #ccc;
-}
-footer a .disabled {
-  color: #f00;
+section:nth-child(odd) {
+  background: #2369cb;
+  opacity: 0.4;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
 }
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
